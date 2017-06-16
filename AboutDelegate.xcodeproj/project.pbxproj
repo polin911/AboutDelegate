@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		36A94A4B1EF3FE1200FDA807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A4A1EF3FE1200FDA807 /* AppDelegate.swift */; };
-		36A94A4D1EF3FE1200FDA807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A4C1EF3FE1200FDA807 /* ViewController.swift */; };
 		36A94A501EF3FE1200FDA807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A94A4E1EF3FE1200FDA807 /* Main.storyboard */; };
 		36A94A531EF3FE1200FDA807 /* AboutDelegate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A511EF3FE1200FDA807 /* AboutDelegate.xcdatamodeld */; };
 		36A94A551EF3FE1200FDA807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A94A541EF3FE1200FDA807 /* Assets.xcassets */; };
 		36A94A581EF3FE1200FDA807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A94A561EF3FE1200FDA807 /* LaunchScreen.storyboard */; };
+		36A94A601EF3FE5100FDA807 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A5F1EF3FE5100FDA807 /* FirstVC.swift */; };
+		36A94A621EF3FE6A00FDA807 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A611EF3FE6A00FDA807 /* SecondVC.swift */; };
+		36A94A641EF3FE8000FDA807 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94A631EF3FE8000FDA807 /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36A94A471EF3FE1200FDA807 /* AboutDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A94A4A1EF3FE1200FDA807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36A94A4C1EF3FE1200FDA807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36A94A4F1EF3FE1200FDA807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36A94A521EF3FE1200FDA807 /* AboutDelegate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AboutDelegate.xcdatamodel; sourceTree = "<group>"; };
 		36A94A541EF3FE1200FDA807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A94A571EF3FE1200FDA807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A94A591EF3FE1200FDA807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A94A5F1EF3FE5100FDA807 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		36A94A611EF3FE6A00FDA807 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		36A94A631EF3FE8000FDA807 /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				36A94A4A1EF3FE1200FDA807 /* AppDelegate.swift */,
-				36A94A4C1EF3FE1200FDA807 /* ViewController.swift */,
 				36A94A4E1EF3FE1200FDA807 /* Main.storyboard */,
 				36A94A541EF3FE1200FDA807 /* Assets.xcassets */,
 				36A94A561EF3FE1200FDA807 /* LaunchScreen.storyboard */,
 				36A94A591EF3FE1200FDA807 /* Info.plist */,
 				36A94A511EF3FE1200FDA807 /* AboutDelegate.xcdatamodeld */,
+				36A94A5F1EF3FE5100FDA807 /* FirstVC.swift */,
+				36A94A611EF3FE6A00FDA807 /* SecondVC.swift */,
+				36A94A631EF3FE8000FDA807 /* ThirdVC.swift */,
 			);
 			path = AboutDelegate;
 			sourceTree = "<group>";
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A94A4D1EF3FE1200FDA807 /* ViewController.swift in Sources */,
 				36A94A531EF3FE1200FDA807 /* AboutDelegate.xcdatamodeld in Sources */,
+				36A94A601EF3FE5100FDA807 /* FirstVC.swift in Sources */,
+				36A94A621EF3FE6A00FDA807 /* SecondVC.swift in Sources */,
 				36A94A4B1EF3FE1200FDA807 /* AppDelegate.swift in Sources */,
+				36A94A641EF3FE8000FDA807 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
