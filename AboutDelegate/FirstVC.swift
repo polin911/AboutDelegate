@@ -13,6 +13,7 @@ class FirstVC: UIViewController {
     
     @IBOutlet var textFieldFromFirstVC: UITextField!
     
+    @IBOutlet var labelFromThirdVC: UILabel!
     
     
     

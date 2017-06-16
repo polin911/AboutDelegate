@@ -70,6 +70,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labelFromThirdVC" destination="Zye-9p-qCL" id="bbR-qb-TBj"/>
                         <outlet property="textFieldFromFirstVC" destination="gsP-PU-vez" id="bBU-Oc-4Cv"/>
                     </connections>
                 </viewController>
